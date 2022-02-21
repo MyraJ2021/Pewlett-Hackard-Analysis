@@ -27,7 +27,9 @@ Pewlett Hackard will need to fill 72,458 roles as the "silver tsunami" begins to
 The company does not have enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees based on limiting mentor qualifications.
 
 The query below shows the number of eligible mentors by title.  Unfortunately, senior engineers and senior staff together amount to only 729 employees eligible mentors, which is only a fraction of the roughly 50 thousand who's positions will need to be filled when they retire during the silver tsunami.
+
 ![mentors_by_title](mentors_by_title.png)
 
 The following query was ran to look at the impact of expanding mentorship eligibility, however, it was observed that there was no data for employees age 50 through 64.  This was also confirmed by looking at the employees table. If the data provided is up to date, this suggests there will be low attrition for at least a 7 year period following the silver tsunami, which may allow time to help in recovery from the impact of the wave of attrition.
+
 ![expanding_mentors_query](expanding_mentors_query.png)
